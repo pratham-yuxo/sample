@@ -17,12 +17,12 @@ const Home = () => {
 
           {cardsData.map((card, index) => (
             <Card
-            key={index} // Always provide a unique key when rendering a list of components
-            name={card.name} // Pass name as a prop
-            referenceNumber={card.referenceNumber} // Pass referenceNumber as a prop
-            totalWeight={card.totalWeight} // Pass totalWeight as a prop
-            totalItems={card.totalItems} // Pass totalItems as a prop
-            status={card.status} // Pass status as a prop
+            key={index} 
+            name={card.name}
+            referenceNumber={card.referenceNumber} 
+            totalWeight={card.totalWeight} 
+            totalItems={card.totalItems} 
+            status={card.status} 
             />
             ))}
       </div>

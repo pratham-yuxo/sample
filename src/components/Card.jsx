@@ -13,7 +13,7 @@ const Card = ({name,referenceNumber,totalItems,totalWeight,status}) => {
                 Ref: <span className='font-extrabold text-xl'>{referenceNumber}</span>
             </div>
         </div>
-        {/* item name sectin ends */}
+        {/* item name section ends */}
         {/* dimension and status of items */}
         <div className='flex flex-col justify-center text-xs pb-4'>
             <div>
