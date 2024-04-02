@@ -3,14 +3,14 @@ import PropTypes from 'prop-types';
 
 const Card = ({name,referenceNumber,totalItems,totalWeight,status}) => {
   return (
-    <div className='flex flex-col gap-7  border-red-600 border w-[22%] rounded-md px-4 py-5 relative' >
+    <div className='flex flex-col gap-7  border-red-600 border w-72 rounded-md px-4 py-5 relative' >
         {/* item name and reference number */}
         <div className='flex flex-col gap-2 justify-center items-center'>
-            <h2 className='font-extrabold'>
+            <h2 className='font-extrabold text-xl'>
                 {name}
             </h2>
             <div>
-                Ref: <span className='font-extrabold'>{referenceNumber}</span>
+                Ref: <span className='font-extrabold text-xl'>{referenceNumber}</span>
             </div>
         </div>
         {/* item name sectin ends */}
