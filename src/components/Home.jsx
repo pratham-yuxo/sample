@@ -12,7 +12,7 @@ const cardsData = [
 const Home = () => {
   return (
     <div className='flex flex-col justify-center items-center'>
-      <div className='flex flex-wrap gap-6 lg:gap-10 bg-white text-black p-4 lg:p-24'>
+      <div className='flex flex-wrap gap-6 lg:gap-10 bg-white text-black p-4 lg:p-16'>
         {/* rendering all the cards */}
 
           {cardsData.map((card, index) => (
